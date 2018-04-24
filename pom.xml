@@ -13,6 +13,15 @@
 
 	<!-- 定义整个项目依赖包 -->
 	<dependencies>
+	
+		<!-- netty jar包导入maven -->
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.1.6.Final</version>
+		</dependency>
+		
+	
 		<!-- 引入依赖jar包到本地仓库 -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
